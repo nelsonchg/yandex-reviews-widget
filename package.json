@@ -1,0 +1,15 @@
+{
+  "name": "yandex-reviews-widget",
+  "version": "1.0.0",
+  "description": "Widget with Yandex reviews parser and API",
+  "main": "api/reviews.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.7.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
