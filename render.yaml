@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: yandex-reviews-widget
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    nodeVersion: 16
+    disableBun: true
